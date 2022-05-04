@@ -1,0 +1,97 @@
+body{
+  background-color: #F7F9FC;
+}
+
+img {
+  width: 350px;
+  border-radius: 50%;
+  box-shadow: 1px 1px 2px #277da1;
+}
+
+h1 {
+  color : #277da1;
+  font-size : 80px;
+  font-family: 'Bebas Neue', cursive;
+}
+
+h2 {
+  color: #4d908e;
+  font-size: 40px;
+  font-family: 'Montserrat', sans-serif;
+}
+
+h3 {
+  color: #6c757d;
+  font-family: 'Montserrat', sans-serif;
+  font-size: 25px;
+  font-weight: bold;
+}
+
+.card-white {
+  width: 900px;
+  margin: 15px auto;
+  background-color: white;
+  border-radius: 15px;
+  padding: 20px;
+  text-align: center;
+  box-shadow: 2px 2px 3px #277da1;
+  font-family: 'Montserrat', sans-serif;
+  color: #6c757d;
+  line-height: 20px;
+  font-size: 20px;
+}
+ ul {
+  list-style-type: none;
+  padding: 0;
+ }
+
+ li {
+  display: inline-block;
+  letter-spacing: 15px;;
+  font-size: 50px;
+ }
+
+a {
+  color : #277da1;
+}
+ a:visited {
+  color : #277da1;
+ }
+
+ a:hover {
+  color : #89c2d9
+ }
+
+ @media (max-width: 960px) {
+  /* Pour un écran < 960px, cette classe CSS s'applique */
+  .card-white {
+    width: 700px;
+  }
+}
+
+@media (max-width: 720px) {
+  /* Pour un écran < 720px, cette classe CSS s'applique */
+  .card-white {
+    width: 500px;
+  }
+}
+
+@media (max-width: 540px) {
+  /* Pour un écran < 540px, cette classe CSS s'applique */
+  .card-white {
+    width: 300px;
+    font-size: 15px;
+  }
+  img {
+    width: 200px;
+  }
+  h1 {
+    font-size: 40px;;
+  }
+  h2 {
+    font-size: 20px;
+  }
+  h3 {
+    font-size: 20px;
+  }
+}
